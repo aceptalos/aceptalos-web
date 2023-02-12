@@ -9,7 +9,12 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		
+		<!-- Button up -->
+		<button onclick='window.scrollTo({top: 0, behavior: "smooth"});' id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
+			<path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
+		  </svg></button>
+		
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
 
@@ -17,10 +22,11 @@
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right" id="start">
 						<div class="content">
 							<h1>ASOCIACIÓN ACÉPTALOS</h1>
-							<p class="major">Centro interdisciplinar.</p>
+							<!--<p class="major">Centro interdisciplinar.</p>-->
 							<ul class="actions stacked">
 								<li><a href="#historia" class="button big wide smooth-scroll-middle">MÁS INFORMACIÓN</a></li>
 								<li><a id="unique-style" href="#contact" class="button big wide smooth-scroll-middle">CONTACTO</a></li>
+								<li><a id="unique-style" href="#gallery" class="button big wide smooth-scroll-middle">GALERÍA</a></li>
 							</ul>
 						</div>
 						<div class="image">
@@ -178,6 +184,7 @@
 			</div>
 
 		<!-- Scripts -->
+			<script src="assets/js/hideorshow.button.scrollup.js"></script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
