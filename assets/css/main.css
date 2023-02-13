@@ -107,6 +107,12 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+/* Start button */
+
+	#start-button {
+		width: 80%;
+	}
+
 /* Button up */
 
 	#myBtn {
