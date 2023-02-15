@@ -1,1 +1,1 @@
-# Página web de la Asociación Acéptalos.
+# Web Asociación Acéptalos.
