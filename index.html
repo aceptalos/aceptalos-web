@@ -10,7 +10,6 @@
 		<script language="javascript">
 			function hide() {
 				document.getElementById("cookies-advice").style.visibility = "hidden";
-				document.getElementById("cookies-advice").innerHTML = "";
 			}
 		</script>
 	</head>
@@ -20,16 +19,16 @@
 		<button onclick='window.scrollTo({top: 0, behavior: "smooth"});' id="myBtn" title="Go to top"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-up-fill" viewBox="0 0 16 16">
 			<path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z"/>
 		  </svg></button>
+						
+		<!-- Cookies Advice -->
+		<div class="wrapper style1 align-center">
+			<div id='cookies-advice'>
+				<b>Este sitio web <span class="sub">no</span> utiliza o almacena cookies de ningún tipo.</b><br><a id="button-cookies" class="button small wide" onclick='hide()'>Aceptar</a>
+			</div>
+		</div>
 		
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
-			
-				<!-- Cookies Advice -->
-				<div class="wrapper style1 align-center">
-					<div id='cookies-advice'>
-						<b>Este sitio web <span class="sub">no</span> utiliza o almacena cookies de ningún tipo.</b><br><a id="button-cookies" class="button small wide smooth-scroll-middle" onclick='hide()'>Aceptar</a>
-					</div>
-				</div>
 
 				<!-- One -->
 					<section class="banner style1 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right" id="start">
@@ -209,6 +208,7 @@
 							<p id="priv-policy" class="align-center"><a href="https://protecciondatos-lopd.com/empresas/politica-de-privacidad-web/" target="_blank">Política de privacidad.</a></p>
 						</div>
 					</footer>
+					
 			</div>
 
 		<!-- Scripts -->
