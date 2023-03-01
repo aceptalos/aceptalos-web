@@ -809,7 +809,6 @@ input, select, textarea {
 		input[type="button"].wide,
 		button.wide,
 		.button.wide {
-			/*min-width: 14em;*/
 			width: 16em;
 		}
 
@@ -1124,7 +1123,6 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				/*padding: 1.3rem 0 0 0;*/
 				padding: 0;
 			}
 
