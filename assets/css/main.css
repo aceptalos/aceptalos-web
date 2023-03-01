@@ -119,10 +119,14 @@ input, select, textarea {
 		margin-top: 1.5em;
 	}
 
-		#priv-policy-text {
+		.priv-policy-text {
 			margin: 0;
 			padding: 0;
 			font-size: 0.7rem;
+		}
+
+		.priv-text-decoration {
+			text-decoration: none;
 		}
 
 /* Cookies advice */
@@ -170,6 +174,17 @@ input, select, textarea {
 	.sub{
 		text-decoration: underline 2px;
 	}
+
+/* Contact Text Decoration */
+
+	.contact-text-decoration {
+		text-decoration: none;
+		font-weight: 500;
+	}
+
+		.contact-text-decoration:hover {
+			color: #47D3E5 !important;
+		}
 
 /* Button up */
 
@@ -279,67 +294,67 @@ input, select, textarea {
 
 /* Aviso legal*/
 	
-#aviso-h1 {
-	font-size: 24pt;
-	font-weight: bold;
-	text-align: center;
-	margin: 2em 0;
-	color:rgb(0, 63, 156)
-	
-}
+	#aviso-h1 {
+		font-size: 24pt;
+		font-weight: bold;
+		text-align: center;
+		margin: 2em 0;
+		color:rgb(0, 63, 156)
+		
+	}
 
-#aviso-h2-unique-pl {
-	font-size: 18pt;
-	font-weight: bold;
-	text-align: center;
-	margin-bottom: 2em;
-}
+	#aviso-h2-unique-pl {
+		font-size: 18pt;
+		font-weight: bold;
+		text-align: center;
+		margin-bottom: 2em;
+	}
 
-#privacidad-h2-unique {
-	font-size: 18pt;
-	font-weight: bold;
-	margin-top: 2em;
-}
+	#privacidad-h2-unique {
+		font-size: 18pt;
+		font-weight: bold;
+		margin-top: 2em;
+	}
 
-.aviso-h2 {
-	font-size: 18pt;
-	font-weight: bold;
-	margin-top: 2.5em;
-}
+	.aviso-h2 {
+		font-size: 18pt;
+		font-weight: bold;
+		margin-top: 2.5em;
+	}
 
-.aviso-subtitulo {
-	font-size: 15pt;
-	font-weight: bold;
-	margin-left: 1.2em;
-	color:rgb(0, 63, 156);
-}
+	.aviso-subtitulo {
+		font-size: 15pt;
+		font-weight: bold;
+		margin-left: 1.2em;
+		color:rgb(0, 63, 156);
+	}
 
-.aviso-contenedor {
-	margin: 3em;
-}
+	.aviso-contenedor {
+		margin: 3em;
+	}
 
-.aviso-parrafo {
-	font-size: 13pt;
-	margin-top: 1.5em;
-	margin-bottom: 1em;
-	padding: 0 1.5em;
-	text-align: justify;
-	font-weight: 500;
+	.aviso-parrafo {
+		font-size: 13pt;
+		margin-top: 1.5em;
+		margin-bottom: 1em;
+		padding: 0 1.5em;
+		text-align: justify;
+		font-weight: 500;
 
-}
+	}
 
-.aviso-texto-resaltado {
-	font-weight: bold;
-}
+	.aviso-texto-resaltado {
+		font-weight: bold;
+	}
 
-.aviso-lista {
-	font-size: 13pt;
-	margin-left: 2em;
-	padding: 0 2em;
-	text-align: justify;
-	font-weight: 500;
-	margin-bottom: 2em;
-}
+	.aviso-lista {
+		font-size: 13pt;
+		margin-left: 2em;
+		padding: 0 2em;
+		text-align: justify;
+		font-weight: 500;
+		margin-bottom: 2em;
+	}
 
 
 /* Type */
@@ -1103,7 +1118,6 @@ input, select, textarea {
 		}
 
 			ul.actions.stacked li {
-				/*padding: 1.3rem 0 0 0;*/
 				padding: 0;
 			}
 
