@@ -371,6 +371,7 @@ input, select, textarea {
 			}
 
 			#cookies-advice {
+				display: inline;
 				text-align: center;
 				bottom: 0;
 				position: fixed;
