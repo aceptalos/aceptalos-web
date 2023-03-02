@@ -1,4 +1,4 @@
-﻿const botonCookie = document.getElementById("button-cookies");
+﻿const botonCookie = document.getElementById("cookies-advice");
 
 if (sessionStorage.getItem("cookies") === null) {
     botonCookie.style.display = "inline";
