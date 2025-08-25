@@ -900,19 +900,18 @@ input, select, textarea {
 		list-style: none;
 		margin: 0px;
 		padding: 0px;
+		text-align: center;
 	}
 
 		#copyr-list li {
 			display: inline-block;
-		}
-
-		#copyr-list li {
 			padding: 0 0.2rem;
-		}
-
-		#copyr-list li {
 			min-width: 1rem;
 			text-align: center;
+		}
+
+		#copyr-list .brand {
+    		margin-left: 1.0rem;
 		}
 
 /* Button */
